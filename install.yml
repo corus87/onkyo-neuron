@@ -1,0 +1,11 @@
+- name: onkyo
+  hosts: localhost
+  gather_facts: no
+  connection: local
+  become: true
+
+  tasks:
+    - name: "Install pip dependencies"
+      pip:
+        name: onkyo-eiscp
+        version: 1.2.1
