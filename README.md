@@ -11,8 +11,6 @@ kalliope install --git-url https://github.com/corus87/onkyo-neuron
 
 ## Options
 
-(usage of a [table generator](http://www.tablesgenerator.com/markdown_tables) is recommended)
-
 | parameter   | required   | default      | choices   | comments                            |
 |-------------|------------|--------------|-----------|-------------------------------------|
 | ip_address  | yes        | None         | string    | The ip address of your onkyo        |
