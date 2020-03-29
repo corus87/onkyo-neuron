@@ -9,3 +9,4 @@
       pip:
         name: onkyo-eiscp
         version: 1.2.1
+        executable: pip3
